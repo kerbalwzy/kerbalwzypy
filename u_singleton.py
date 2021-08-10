@@ -2,6 +2,7 @@
 # @Author: wzy
 # @Time: 2020-9-22 09:35:57
 # 线程安全单例模式类装饰器
+__all__ = ["synchronized", "singleton_cls"]
 
 import multiprocessing
 from functools import wraps

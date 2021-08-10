@@ -2,6 +2,8 @@
 # @Author: wzy
 # @Time: 2021/8/10
 # SqlAlchemy ORM相关工具函数
+__all__ = ["query_paginate"]
+
 from typing import Tuple
 
 from sqlalchemy.orm import Query

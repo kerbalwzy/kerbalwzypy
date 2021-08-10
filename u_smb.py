@@ -2,6 +2,7 @@
 # @Author: wzy
 # @Time: 2021/3/18
 # SMB协议下的共享盘文件操作, 依赖于第三方包 pysmb !!
+__all__ = ["SMBClient"]
 
 import io
 import os

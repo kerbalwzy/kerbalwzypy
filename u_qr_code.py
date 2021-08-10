@@ -14,7 +14,7 @@ from pyzbar import pyzbar
 
 from u_string import contains_chinese
 
-__all__ = ['create_qr_code', 'qr_code_parser', 'FONT_FILE_PATH']
+__all__ = ['create_qr_code', 'qr_code_parser']
 
 FONT_FILE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data/fonts/arial.ttf")
 

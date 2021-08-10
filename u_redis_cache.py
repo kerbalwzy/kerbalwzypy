@@ -2,6 +2,8 @@
 # @Author: wzy
 # @Time: 2020-9-16 10:05:57
 # 使用Redis数据库做缓存的相关工具函数
+__all__ = ["init_cache", "set_cache", "get_cache", "del_cache"]
+
 import logging
 import pickle
 # 依赖第三方包 redis

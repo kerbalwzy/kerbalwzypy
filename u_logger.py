@@ -2,6 +2,7 @@
 # @Author: wzy
 # @Time: 2021-1-29 15:25:45
 # 创建自定义的logger对象
+__all__ = ["XLogger"]
 
 import logging
 from logging.handlers import RotatingFileHandler
